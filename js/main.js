@@ -5,6 +5,10 @@ const operacion = prompt('Seleccione la operación: suma (+), resta (-), multipl
 
 let resultado;
 
+if (num1 || num2 == " ") {
+    alert("Operacion invalida, debe ingresar dos numeros ")
+}
+
 
 if (operacion === '+') {
     resultado = num1 + num2;
